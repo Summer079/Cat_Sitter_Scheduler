@@ -1,0 +1,25 @@
+<div class="container mt-4">
+  <p><a [routerLink]="['/']">Back</a></p>
+    <h3>Create New Booking</h3>
+  
+    <form>
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" [(ngModel)]="title" name="title" required />
+      </div>
+  
+      <div class="mb-3">
+        <label for="startTime" class="form-label">Start Time</label>
+        <input type="datetime-local" class="form-control" id="startTime" [(ngModel)]="startTime" name="startTime" required />
+      </div>
+  
+      <div class="mb-3">
+        <label for="endTime" class="form-label">End Time</label>
+        <input type="datetime-local" class="form-control" id="endTime" [(ngModel)]="endTime" name="endTime" required />
+      </div>
+  
+      <button type="button" class="btn btn-primary mr-2" (click)="createBooking()">Create Booking</button>
+      <button type="button" class="btn btn-warning" (click)="bookings()">Cancel</button>
+    </form>
+  </div>
+  
