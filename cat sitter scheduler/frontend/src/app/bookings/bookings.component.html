@@ -1,0 +1,32 @@
+<div class="container mt-4">
+    <!-- Buttons for navigating to different booking-related screens -->
+    <div class="mb-4">
+        <button class="btn btn-primary mr-2" (click)="addBooking()">Add Booking</button>
+        <button class="btn btn-warning mr-2" (click)="logout()">Logout</button>
+    </div>
+
+    <!-- Bookings Table -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Start Time</th>
+                <th scope="col">End Time</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let booking of bookings">
+                <th scope="row">{{ booking.id }}</th>
+                <td>{{ booking.title }}</td>
+                <td>{{ booking.startTime }}</td>
+                <td>{{ booking.endTime }}</td>
+                <td>
+                    <button class="btn btn-primary mr-2" (click)="viewBookingDetails(booking.id)">View</button>
+                    <button class="btn btn-secondary" (click)="copyBookingLink(booking)">Copy Booking Link</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
