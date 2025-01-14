@@ -78,3 +78,46 @@ Backend
     "dialect": "postgres",
     "port": "5432"
 ```
+
+# Demo
+
+#### **Signup Page:**
+<p align="center">
+  <img width="700" alt="cat_sitter01" src="https://github.com/user-attachments/assets/1715a677-8b71-45c2-bf9d-3cb187b77fdf">
+</p>
+
+#### **Login Page:**
+<p align="center">
+  <img width="700" alt="cat_sitter02" src="https://github.com/user-attachments/assets/fedcd3bd-582c-4c4f-9cec-24672b046b3a">
+</p>
+
+#### **Home Page:**
+<p align="center">
+  <img width="700" alt="cat_sitter03" src="https://github.com/user-attachments/assets/a5bb343a-e588-460c-ba1b-a2b4928f5e8e">
+</p>
+
+#### **Create a New Booking:**
+<p align="center">
+  <img width="700" alt="cat_sitter04" src="https://github.com/user-attachments/assets/bb701ef3-1e72-49fb-979a-6f82f0e5490e">
+</p>
+
+#### **Upload a Video to the Booking:**
+<p align="center">
+  <img width="700" alt="cat_sitter05" src="https://github.com/user-attachments/assets/18197dd8-5255-4199-81c5-a0904c21183c">
+</p>
+
+#### **After Uploading the Video:**
+<p align="center">
+  <img width="700" alt="cat_sitter06" src="https://github.com/user-attachments/assets/e2c9e37d-91ad-4da3-9269-f96463a4cd5b">
+</p>
+
+#### **Copying the URL via the 'Copy Booking Link' Button on the Home Page: USER 1**
+<p align="center">
+  <img width="700" alt="cat_sitter07" src="https://github.com/user-attachments/assets/66c26f16-96ac-4c9f-a2e7-5b4eae2cc1a1">
+</p>
+
+#### **Different User's Profile: USER 2**
+<p align="center">
+  <img width="700" alt="cat_sitter08" src="https://github.com/user-attachments/assets/6901e2fd-fc2e-49cd-8671-4f2e99900c29">
+</p>
+
